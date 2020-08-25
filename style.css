@@ -2,4 +2,8 @@ body{
     font-family:Ariel,Halvetica,sans-serif;
     font-size:15px;
     line-height:1.5;
+    padding:0;
+    margin:0;
+    background-color: grey;
+    background-image:url(../images/mountains.jpg);
 }
