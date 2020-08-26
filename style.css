@@ -1,4 +1,7 @@
 body{
+
+
+
     font-family:Ariel,Halvetica,sans-serif;
     font-size:15px;
     line-height:1.5;
@@ -9,6 +12,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+
     
    
     /* background:url(../images/mountains.jpg) repeat grey; */
@@ -18,6 +22,12 @@ body{
     align-items: center; */
 }
 
+.wrapper{
+    margin:0 auto;
+    width: 1000px;
+
+    }
+
 .container{
     width: 50%;
     margin: auto;
@@ -26,14 +36,14 @@ body{
 }
 header .logo {
     position: center;
-    
-    
 
 }
-
 header{
     background: lightgray;
-    display: flex;
+    display: block;
+    width: 100%;
+    
+
     
     
 }
