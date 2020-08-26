@@ -4,6 +4,36 @@ body{
     line-height:1.5;
     padding:0;
     margin:0;
-    background-color: grey;
-    background-image:url(../images/mountains.jpg);
+    /* background-color: grey;*/
+    background-image:url(../webPage/images/mountains.jpg); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
+   
+    /* background:url(../images/mountains.jpg) repeat grey; */
+    /* height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.container{
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+
+}
+header .logo {
+    position: center;
+    
+    
+
+}
+
+header{
+    background: lightgray;
+    display: flex;
+    
+    
 }
