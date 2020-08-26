@@ -12,6 +12,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+    background-size: cover;
 
     
    
@@ -34,14 +35,16 @@ body{
     overflow: hidden;
 
 }
-header .logo {
+/* header .logo {
     position: center;
+    display:flex; */
 
 }
 header{
-    background: lightgray;
-    display: block;
-    width: 100%;     
+    background: grey;
+    display:flex;
+    width: 50%;     
+    justify-content: space-between;
 }
 header a{
     color:white;
@@ -53,9 +56,15 @@ header ul{
     margin:0;
     padding:0;
 }
- .first{
-    float:left;
-    display:inline;
-
-
+header li{
+    float: left;
+    justify-content: space-between;
+    display: flex;
 }
+
+.nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
